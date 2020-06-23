@@ -28,7 +28,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv4(),
-    img: 'news_2.jpg',
+    img: 'news.jpg',
     title: 'NLP data analysis with news aggregator',
     info: '',
     info2: '',
@@ -37,12 +37,12 @@ export const projectsData = [
   },
   {
     id: uuidv4(),
-    img: 'wcs_3.jpg',
+    img: 'wcs.jpg',
     title: 'World Color Survey redux',
     info: '',
     info2: '',
-    url: 'https://github.com/natephil/color_categories/tree/gh-pages',
-    repo: 'https://github.com/natephil/color_categories', // if no repo, the button will not show up
+    url: 'https://natephil.github.io/color_categories/',
+    repo: 'https://github.com/natephil/color_categories/tree/gh-pages', // if no repo, the button will not show up
   },
   {
     id: uuidv4(),
@@ -55,7 +55,7 @@ export const projectsData = [
   },
   {
     id: uuidv4(),
-    img: 'project.jpg',
+    img: 'dr_seuss.jpg',
     title: 'markov text chain twitter bot',
     info: '',
     info2: '',
@@ -76,18 +76,13 @@ export const footerData = {
   networks: [
     {
       id: uuidv4(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: uuidv4(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/nathan-cahn-900b63a1/',
     },
     {
       id: uuidv4(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/natephil',
     },
   ],
 };
