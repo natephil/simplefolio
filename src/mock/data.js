@@ -10,47 +10,56 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Nathan Cahn',
+  subtitle: 'data analyst',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'kid_pic.jpg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://resume.creddle.io/resume/4tocwktsjhi', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: uuidv4(),
-    img: 'project.jpg',
-    title: '',
+    img: 'news_2.jpg',
+    title: 'NLP data analysis with news aggregator',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://nlpheadlines.herokuapp.com/admin/',
+    repo: 'https://github.com/natephil/nlpheadlines', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv4(),
+    img: 'wcs_3.jpg',
+    title: 'World Color Survey redux',
+    info: '',
+    info2: '',
+    url: 'https://github.com/natephil/color_categories/tree/gh-pages',
+    repo: 'https://github.com/natephil/color_categories', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv4(),
+    img: 'george_washington.jpg',
+    title: 'presidents of Jeopardy!',
+    info: '',
+    info2: '',
+    url: 'https://natephil.github.io/jeopardy/',
+    repo: 'https://github.com/natephil/jeopardy/tree/gh-pages', // if no repo, the button will not show up
   },
   {
     id: uuidv4(),
     img: 'project.jpg',
-    title: '',
+    title: 'markov text chain twitter bot',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: uuidv4(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
+    url: 'https://twitter.com/DrSeuss85134023',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
 ];
@@ -68,11 +77,6 @@ export const footerData = {
     {
       id: uuidv4(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: uuidv4(),
-      name: 'codepen',
       url: '',
     },
     {
